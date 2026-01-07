@@ -17,6 +17,10 @@ export const metadata: Metadata = {
     "video compressor",
     "ridurre dimensione video",
   ],
+  icons: {
+    icon: "/Favicon.webp",
+    apple: "/Favicon.webp",
+  },
 };
 
 export default function RootLayout({
