@@ -18,7 +18,10 @@ export const metadata: Metadata = {
     "ridurre dimensione video",
   ],
   icons: {
-    icon: "/Favicon.svg",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/Favicon.svg", type: "image/svg+xml" },
+    ],
     apple: "/Favicon.svg",
   },
 };
